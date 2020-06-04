@@ -180,7 +180,7 @@ h6 {
 
 /*navBAR style DROPDOWN*/
 .dropdown-box {
-  max-width: 90px;
+  max-width: 101px;
 }
 @media (min-width: 992px) {
   .dropdown:hover .dropdown-toggle {
@@ -223,7 +223,7 @@ ul.dropdown {
     min-width:100px;
     border:none;
     margin-top: -1px;
-    margin-left: 22%; 
+    /*margin-left: 22%; */
   }
 }
 @media (max-width: 1200px) {
@@ -231,7 +231,7 @@ ul.dropdown {
     min-width:100px;
     border:none;
     margin-top: -1px;
-    margin-left: 17%; 
+    /*margin-left: 17%; */
   }
 }
 @media (max-width: 950px) {
@@ -239,7 +239,7 @@ ul.dropdown {
     min-width:100px;
     border:none;
     margin-top: -1px;
-    margin-left: 0px; 
+    /*margin-left: 0px; */
   }
 }
 @media (min-width: 992px) {
