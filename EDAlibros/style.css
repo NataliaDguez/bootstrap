@@ -111,7 +111,7 @@ h6 {
 .fa-twitter:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-search:hover, .fa-angle-righ:hover {
   color: rgb(112, 112, 112);
 }
-.searchbar:focus, .search:focus, .navbar-toggler:focus, .email-box{
+.searchbar:focus, .search:focus, .navbar-toggler:focus, .email-box {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -138,7 +138,7 @@ h6 {
   border-width: 1px;
   border-color:#222;
 }
-.searchbar{
+.searchbar {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: grey;
@@ -218,12 +218,12 @@ ul.dropdown {
   padding: 2px;
   margin-top: 0px;
 }
-  .dropdown-menu {
+.dropdown-menu {
     min-width:100px;
     border:none;
     margin-top: -1px;
     margin-left: 15px; 
-  }
+}
 @media (min-width: 992px) {
   .dropdown-item {
     color: #222; 
@@ -280,15 +280,15 @@ ul.dropdown-cart{
   margin-top: 5px;
   background-color: #f8ead8;
 }
-ul.dropdown-cart li .item{
+ul.dropdown-cart li .item {
   display:block;
   padding:0px 10px;
   margin: 3px 0;
 }
-ul.dropdown-cart li .item:hover{
+ul.dropdown-cart li .item:hover {
   background-color:#f8ead800; 
 }
-ul.dropdown-cart li .item:after{
+ul.dropdown-cart li .item:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -300,20 +300,19 @@ ul.dropdown-cart li .item:after{
 ul.dropdown-cart li .item-left{
   float:left;
 }
-ul.dropdown-cart li .item-left img,
-ul.dropdown-cart li .item-left span.item-info{
+ul.dropdown-cart li .item-left img, ul.dropdown-cart li .item-left span.item-info {
   float:left;
 }
-ul.dropdown-cart li .item-left span.item-info{
+ul.dropdown-cart li .item-left span.item-info {
   margin-left:10px;   
 }
-ul.dropdown-cart li .item-left span.item-info span{
+ul.dropdown-cart li .item-left span.item-info span { 
   display:block;
 }
-ul.dropdown-cart li .item-right{
+ul.dropdown-cart li .item-right {
   float:right;
 }
-ul.dropdown-cart li .item-right button{
+ul.dropdown-cart li .item-right button {
   margin-top:14px;
 } 
 
@@ -382,39 +381,31 @@ figure {
 }
 
 /*Images Grid style*/ 
-@media (max-width: 1440px){
+@media (min-width: 1020px){
   .img1 {
     max-width: 335px;
   }
-  .img2 {
-    max-width: 170px;
+}
+/*Grid paddings*/
+@media (min-width: 576px) {
+  .grid-text-padding {
+    padding-right: 60px;
   }
 }
 @media (max-width: 992px) {
-  .img1 {
-    max-width: 335px;
-  }
-  .img2 {
-    max-width: 335px;
+  .grid-image-padding {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
-  .img1 {
-    max-height: 350px;
-  }
-  .img2 {
-    max-height: 350px;
-  }
-}
-@media (max-width: 576px) {
-  .img1 {
-    max-height: 400px;
-  }
-  .img2 {
-    max-height: 400px;
+  .grid-image-padding {
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
   }
 }
-
     /*Botones del grid*/
 .btn-outline-dark {
   font-family: "Open Sans", sans-serif;
@@ -451,11 +442,3 @@ footer {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
